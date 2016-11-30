@@ -7,7 +7,7 @@
 [![Yard Docs](http://img.shields.io/badge/yard-docs-blue.svg)](http://rubydoc.info/github/pre-commit-plugins/pre-commit-jasmine_focus/master/frames)
 [![Github Code](http://img.shields.io/badge/github-code-blue.svg)](https://github.com/pre-commit-plugins/pre-commit-jasmine_focus)
 
-# Jasmine_focus for pre-commit gem
+# jasmine_focus for pre-commit gem
 
 ### Installation
 

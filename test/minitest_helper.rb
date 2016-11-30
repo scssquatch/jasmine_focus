@@ -33,6 +33,15 @@ module PreCommit; module Helpers
     File.expand_path("../files", __FILE__)
   end
 
+  def fixture_file(filename)
+    file_dir = File.expand_path('../files', __FILE__).sub("#{project_dir}/", "")
+    File.join(file_dir, filename)
+  end
+
+  def project_dir
+    File.expand_path("../../", __FILE__)
+  end
+
 end; end
 
 class MiniTest::Unit::TestCase

@@ -12,7 +12,7 @@ require 'pre-commit/jasmine_focus/version'
 
 Gem::Specification.new do |s|
   s.name     = "pre-commit-jasmine_focus"
-  s.version  = PreCommit::Jasmine_focus::VERSION
+  s.version  = PreCommit::JasmineFocus::VERSION
   s.author   = "Aaron Baker"
   s.email    = "abaker@sharethrough.com"
   s.homepage = "https://github.com/pre-commit-plugins/pre-commit-jasmine_focus"
